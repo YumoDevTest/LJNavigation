@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                tools:context="com.macernow.djstava.ljnavigation.navigation.activity.WayPointInputActivity">
+
+    <ImageView
+        android:id="@+id/way_point_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/way_point_edit"
+        android:src="@drawable/back_top"/>
+
+    <TextView
+        android:id="@+id/way_point_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@+id/way_point_back"
+        android:gravity="center"
+        android:text="@string/way_point_title"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/way_point_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/way_point_listview"
+        android:layout_alignStart="@+id/way_point_listview"
+        android:layout_below="@+id/way_point_title"
+        android:background="@drawable/bg_edittext"
+        android:hint="@string/way_point_hint"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textSize="35sp"/>
+
+    <Button
+        android:id="@+id/way_point_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/way_point_listview"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/edittext_clear"
+        android:visibility="invisible"/>
+
+    <ListView
+        android:id="@+id/way_point_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/way_point_edit"
+        android:layout_marginLeft="50dp"
+        android:scrollbars="none"
+        android:divider="@null"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:overScrollMode="never">
+    </ListView>
+
+</RelativeLayout>

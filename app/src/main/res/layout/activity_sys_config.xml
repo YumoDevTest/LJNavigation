@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.macernow.djstava.ljnavigation.sys.SysConfigActivity">
+
+    <com.macernow.djstava.ljnavigation.utils.CornerListView
+        android:id="@+id/sys_listview"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/list_default_round"
+        android:cacheColorHint="#00000000"></com.macernow.djstava.ljnavigation.utils.CornerListView>
+
+    <LinearLayout
+        android:id="@+id/sys_fragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"></LinearLayout>
+
+</LinearLayout>

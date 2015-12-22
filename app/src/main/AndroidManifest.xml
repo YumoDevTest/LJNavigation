@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.macernow.djstava.ljnavigation"
+    android:versionCode="1"
+    android:versionName="1.0.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="ANDROID.PERMISSION.SET_TIME" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="16534423d99fef142f390ca7c9e55732" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="ANDROID.INTENT.CATEGORY.HOME" />
+                <category android:name="ANDROID.INTENT.CATEGORY.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".music.MusicViewActivity"
+            android:label="@string/title_activity_music_view"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MovieViewActivity"
+            android:label="@string/title_activity_movie_view"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".media.MovieMediaPlayerActivity"
+            android:label="@string/title_activity_movie_media_player"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.MainStartActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.SimpleGPSNaviActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.SimpleHUDNaviActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.SimpleHudActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.SimpleNaviRouteActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.NaviEmulatorActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.SimpleNaviActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.NaviSettingActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.NaviRouteActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.NaviCustomActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.NaviStartActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.SimpleExtendNaviActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.NaviExtendActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".music.SongDetailActivity"
+            android:label="@string/title_activity_song_detail"
+            android:screenOrientation="landscape" />
+
+        <service
+            android:name=".music.MusicService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".navigation.activity.NaviConfigActivity"
+            android:label="@string/title_activity_navi_config"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name=".LoadAppActivity"
+            android:label="@string/title_activity_load_app"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".vitamio.VitamioMediaPlayerActivity"
+            android:label="@string/title_activity_vitamio_media_player"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".vitamio.VitamioVideoViewActivity"
+            android:label="@string/title_activity_video_view"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.StartPointInputActivity"
+            android:label="@string/title_activity_start_point_input"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name=".navigation.activity.StartPointHistoryActivity"
+            android:label="@string/title_activity_start_point_history"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.EndPointHistoryActivity"
+            android:label="@string/title_activity_end_point_history"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.EndPointInputActivity"
+            android:label="@string/title_activity_end_point_input"
+            android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name=".navigation.activity.WayPointHistoryActivity"
+            android:label="@string/title_activity_address_history" />
+        <activity
+            android:name=".navigation.activity.WayPointInputActivity"
+            android:label="@string/title_activity_address_input" />
+        <activity
+            android:name=".sys.SysConfigActivity"
+            android:label="@string/title_activity_sys_config"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".navigation.activity.OfflineMapActivity"
+            android:label="@string/title_activity_music_view"
+            android:screenOrientation="landscape" />
+        <activity android:name=".MultimediaWizardActivity" >
+        </activity>
+    </application>
+
+</manifest>

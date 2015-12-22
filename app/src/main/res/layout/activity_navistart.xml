@@ -1,0 +1,168 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/left_layout"
+        android:layout_width="410dp"
+        android:layout_height="match_parent"
+        android:background="@color/white90"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ccc_navi_panel_background" />
+
+        <EditText
+            android:id="@+id/navi_start_edit"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="90dp"
+            android:hint="@string/pos_start"
+            android:textColorHint="@color/HKS91K"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/position1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/navi_start_edit"
+            android:layout_marginLeft="28dp"
+            android:hint="@string/pos_through"
+            android:textColorHint="@color/HKS91K"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/position2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/position1"
+            android:layout_marginLeft="28dp"
+            android:hint="@string/pos_through"
+            android:textColorHint="@color/HKS91K"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/position3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/position2"
+            android:layout_marginLeft="28dp"
+            android:hint="@string/pos_through"
+            android:textColorHint="@color/HKS91K"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/navi_end_edit"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/position3"
+            android:layout_marginLeft="28dp"
+            android:hint="@string/pos_destination"
+            android:textColorHint="@color/HKS91K"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/addPosition"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="90dp"
+            android:layout_toRightOf="@id/navi_start_edit"
+            android:background="@drawable/addposition" />
+
+        <ImageButton
+            android:id="@+id/removePosition1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/navi_start_edit"
+            android:layout_toEndOf="@+id/position1"
+            android:layout_toRightOf="@+id/position1"
+            android:background="@drawable/removeposition" />
+
+        <ImageButton
+            android:id="@+id/removePosition2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/position1"
+            android:layout_toEndOf="@+id/position2"
+            android:layout_toRightOf="@+id/position2"
+            android:background="@drawable/removeposition" />
+
+        <ImageButton
+            android:id="@+id/removePosition3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/position2"
+            android:layout_toEndOf="@+id/position3"
+            android:layout_toRightOf="@+id/position3"
+            android:background="@drawable/removeposition" />
+
+        <ImageButton
+            android:id="@+id/address_book"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_toLeftOf="@+id/checklist"
+            android:background="@drawable/ccc_part_navi_button_address" />
+
+        <ImageButton
+            android:id="@+id/checklist"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_toLeftOf="@+id/nav_setting"
+            android:background="@drawable/ccc_part_navi_button_check" />
+
+        <ImageButton
+            android:id="@+id/nav_setting"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ccc_part_navi_button_setting" />
+
+        <AutoCompleteTextView
+            android:id="@+id/navi_strategy_edit"
+            android:layout_width="240dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/navi_end_edit"
+            android:layout_alignLeft="@+id/navi_end_edit"
+            android:cursorVisible="true"
+            android:hint="@string/select_strategy_hint"
+            android:textColorHint="@color/blue" />
+
+        <Button
+            android:id="@+id/navi_route_button"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_alignEnd="@+id/nav_setting"
+            android:layout_alignRight="@+id/nav_setting"
+            android:layout_below="@+id/navi_end_edit"
+            android:layout_marginRight="24dp"
+            android:gravity="center"
+            android:background="@drawable/button_round"
+            android:text="@string/start_navigation"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ccc_part_navi_quick_button" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_toRightOf="@+id/left_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </com.amap.api.maps.MapView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

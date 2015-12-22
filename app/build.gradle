@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "21.1.2"
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['jniLibs']
+            res.srcDirs = ['src/main/res', 'src/main/res/values-en']
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.macernow.djstava.ljnavigation"
+        minSdkVersion 14
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/jaudiotagger-2.0.3.jar')
+    compile files('libs/Msc.jar')
+    compile files('libs/Android_Navi_V1.1.2.jar')
+    compile files('libs/AMap_3DMap_V2.4.1.jar')
+    compile files('libs/Android_Location_V1.3.2.jar')
+    compile 'com.android.support:appcompat-v7:22.2.0'
+    compile files('libs/volley.jar')
+    compile files('libs/MapApiServices.jar')
+    compile project(':vitamio')
+}

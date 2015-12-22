@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/djstava/Workshop/longjing/LJNavigation/app/libs/volley.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4a94601db9bdfb7dc60efabb3dea91a0675f591d">
+        <dex dex="/Users/djstava/Workshop/longjing/LJNavigation/app/build/intermediates/pre-dexed/debug/volley-ffd788f4b4458c4f20494d8bdb177d5978b79a06.jar" />
+    </item>
+    <item
+        jar="/Users/djstava/Workshop/longjing/LJNavigation/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/djstava/Workshop/longjing/LJNavigation/app/build/intermediates/pre-dexed/debug/classes-4c1056a73debc19ee624c6e3cf4a0391194cdd6e.jar" />
+    </item>
+    <item
+        jar="/Users/djstava/Workshop/longjing/LJNavigation/app/libs/jaudiotagger-2.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bedb59b6004155a47523b014273d87de505749fd">
+        <dex dex="/Users/djstava/Workshop/longjing/LJNavigation/app/build/intermediates/pre-dexed/debug/jaudiotagger-2.0.3-3c1962f65f2ca79ee0376f19485bbe7bde81f744.jar" />
+    </item>
+    <item
+        jar="/Users/djstava/Workshop/longjing/LJNavigation/app/libs/Android_Navi_V1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="608ac5c3d9ff1e979301a88f5cb8e66d75333db4">
+        <dex dex="/Users/djstava/Workshop/longjing/LJNavigation/app/build/intermediates/pre-dexed/debug/Android_Navi_V1.1.2-758dea1476ed4cf461ad7155c9dfb217e5311dc7.jar" />
+    </item>
+    <item
+        jar="/Users/djstava/Workshop/longjing/LJNavigation/app/libs/AMap_3DMap_V2.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d13e56038f3e198d129da3966008dff00365636a">
+        <dex dex="/Users/djstava/Workshop/longjing/LJNavigation/app/build/intermediates/pre-dexed/debug/AMap_3DMap_V2.4.1-15eefadcbe3856e3a4ec7f58b4f895f0d99571bb.jar" />
+    </item>
+    <item
+        jar="/Users/djstava/Workshop/longjing/LJNavigation/app/build/intermediates/exploded-aar/LJNavigation/vitamio/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5b1e19774958cabd33dae18afac1e3327e9a2d78">
+        <dex dex="/Users/djstava/Workshop/longjing/LJNavigation/app/build/intermediates/pre-dexed/debug/classes-299d0d3972c77376dad60c74026d9ebbf17667cb.jar" />
+    </item>
+    <item
+        jar="/Users/djstava/Workshop/longjing/LJNavigation/app/libs/Msc.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="14e02a95fa56eb18b385a4f156b4fb14d4721df4">
+        <dex dex="/Users/djstava/Workshop/longjing/LJNavigation/app/build/intermediates/pre-dexed/debug/Msc-407bb499248463dc54b8c78eecf2e8f69a671482.jar" />
+    </item>
+    <item
+        jar="/Users/djstava/Workshop/longjing/LJNavigation/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/djstava/Workshop/longjing/LJNavigation/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-033e194be68dca45d207dd622ddad27d0359d49e.jar" />
+    </item>
+    <item
+        jar="/Users/djstava/Workshop/longjing/LJNavigation/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/djstava/Workshop/longjing/LJNavigation/app/build/intermediates/pre-dexed/debug/classes-35c3ef961b78d15a5810ac659b1f4b9ce45ec6cb.jar" />
+    </item>
+    <item
+        jar="/Users/djstava/Workshop/longjing/LJNavigation/app/libs/Android_Location_V1.3.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b64d1f38ef7ee28b538d61a39d040f249c65587c">
+        <dex dex="/Users/djstava/Workshop/longjing/LJNavigation/app/build/intermediates/pre-dexed/debug/Android_Location_V1.3.2-89bb270d8f916c37379fc2c154efb434219f761c.jar" />
+    </item>
+    <item
+        jar="/Users/djstava/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/djstava/Workshop/longjing/LJNavigation/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-b47542f48a051773e99ac693d5d5b927dcad69e6.jar" />
+    </item>
+    <item
+        jar="/Users/djstava/Workshop/longjing/LJNavigation/app/libs/MapApiServices.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e84628aa8eea7b9892768f19c41dbe02abc7f666">
+        <dex dex="/Users/djstava/Workshop/longjing/LJNavigation/app/build/intermediates/pre-dexed/debug/MapApiServices-aa98acc0287f50d9dc8ecaaeabd3e87a791a21cb.jar" />
+    </item>
+
+</items>

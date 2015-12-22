@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/video_native_media_controller_custom_btn_start"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/video_btn_start"
+        android:background="@android:color/transparent" />
+
+    <RelativeLayout
+        android:id="@+id/video_native_media_controller_custom_controller"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/video_native_media_controller_custom_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="On the air"
+            android:textColor="@color/white"
+            android:layout_marginLeft="12dp" />
+
+        <SeekBar
+            android:id="@+id/video_native_media_controller_custom_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/video_native_media_controller_custom_title"
+            android:layout_centerHorizontal="true"
+            android:progressDrawable="@drawable/style_seekbar"
+            android:thumb="@null"/>
+
+        <TextView
+            android:id="@+id/video_native_media_controller_custom_currenttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_alignLeft="@id/video_native_media_controller_custom_seekbar"
+            android:layout_below="@id/video_native_media_controller_custom_seekbar"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/video_native_media_controller_custom_totaltime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/video_native_media_controller_custom_seekbar"
+            android:layout_alignRight="@id/video_native_media_controller_custom_seekbar"
+            android:layout_marginRight="14dp"
+            android:textSize="14sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+</RelativeLayout>

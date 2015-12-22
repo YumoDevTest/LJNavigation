@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                tools:context="com.macernow.djstava.ljnavigation.navigation.activity.StartPointHistoryActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/start_point_history_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_top"
+            android:layout_alignBottom="@+id/start_point_history_edit"/>
+
+        <EditText
+            android:id="@+id/start_point_history_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/start_point_history_back"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_edittext"
+            android:gravity="left|center_vertical"
+            android:hint="@string/start_point_hint"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textSize="35sp"
+            android:layout_alignParentTop="true"
+            />
+
+        <ListView
+            android:id="@+id/start_point_history_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button_clear"
+            android:layout_below="@+id/start_point_history_back"
+            android:divider="@null"
+            android:headerDividersEnabled="false"
+            android:footerDividersEnabled="false"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            android:layout_toRightOf="@+id/start_point_history_back"
+            >
+        </ListView>
+
+        <Button
+            android:id="@+id/button_clear"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/red"
+            android:text="清除历史记录"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/start_point_history_listview"
+            android:layout_alignStart="@+id/start_point_history_listview"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,236 @@
+<resources>
+    <string name="app_name">车载导航</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_music_view">MusicViewActivity</string>
+
+    <string name="main_icon_text_navi">导航</string>
+    <string name="main_icon_text_phone">通话</string>
+    <string name="main_icon_text_media">多媒体</string>
+    <string name="main_icon_text_app">应用</string>
+    <string name="main_icon_text_settings">设置</string>
+
+    <string name="musicList">歌曲列表</string>
+    <string name="music_current">正在播放: </string>
+    <string name="music_origin_time">00:00</string>
+    <string name="movieList">影片列表</string>
+
+    <string name="textView_back"> 返回</string>
+    <string name="title_activity_movie_view">MovieViewActivity</string>
+    <string name="title_activity_movie_media_player">MovieMediaPlayerActivity</string>
+
+    <string name="title_activity_app_manager">AppManagerActivity</string>
+
+    <string name="start_title">示例代码</string>
+    <string name="base_function">基本功能</string>
+    <string name="hud_title">HUD显示</string>
+    <string name="extend_title">扩展功能</string>
+    <string name="extend_navi_navi">自定义导航</string>
+
+    <string name="navibar_title">路径规划</string>
+    <string name="navi_car">驾车</string>
+    <string name="navi_foot">步行</string>
+    <string name="start_hud_navi">HUD显示</string>
+    <string name="complex_function">综合展示</string>
+
+
+    <string name="navi_empty_car">"驾   车"</string>
+    <string name="navi_empty_foot">"步   行"</string>
+    <string name="navi_start">"起    点"</string>
+    <string name="navi_middle">途经点</string>
+    <string name="navi_end">"终    点"</string>
+    <string name="navi_strategy">"策    略"</string>
+    <string name="navi_route">路径规划</string>
+    <string name="navi_navi">模拟导航</string>
+    <string name="start_navi_navi">开始导航</string>
+    <string name="navi_strategy_speed">速度最快</string>
+    <string name="navi_strategy_cost">避免收费</string>
+    <string name="navi_strategy_distance">距离最短</string>
+    <string name="navi_strategy_nohighway">不走高速快速路</string>
+    <string name="navi_strategy_timenojam">时间最短且躲避拥堵</string>
+    <string name="navi_strategy_costnojam">避免收费且躲避拥堵</string>
+    <string name="navi_locating">努力定位中...</string>
+    <string name="navi_routing">线路规划中</string>
+    <string name="navi_routing_fail">导航规划失败</string>
+    <string name="navi_routing_hint">开始和目的地不能为空，请重新输入</string>
+    <string name="navi_routing_fail_hint">路线计算失败,检查参数情况</string>
+    <string name="navi_location_fail_hint">定位出现异常,请检查网络连接.</string>
+
+    <string name="theme_blue">经典蓝</string>
+    <string name="theme_pink">可爱粉</string>
+    <string name="theme_white">简约白</string>
+
+    <string name="setting">设置</string>
+    <string name="day">白天</string>
+    <string name="night">夜间</string>
+    <string name="yes">"  是  "</string>
+    <string name="no">"  否  "</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="daynightmode">"昼夜模式    "</string>
+    <string name="deviationrecalculation">"偏航重算    "</string>
+    <string name="jamrecalculation">"拥堵重算    "</string>
+    <string name="trafficbroadcast">"交通播报    "</string>
+    <string name="camerabroadcast">摄像头播报</string>
+    <string name="screenon">"屏幕常亮    "</string>
+    <string name="routeshow">线路规划</string>
+    <string name="tapmap">点击地图设置</string>
+    <string name="starttapmap">我的位置（可点击地图设置）</string>
+    <string name="walkdescription">步行状态不可用</string>
+    <string name="routeinfo">全程   --公里/--分钟    收费 --元</string>
+    <string name="routeinfo_1">全程 </string>
+    <string name="routeinfo_2">公里/</string>
+    <string name="routeinfo_3">"分钟    收费"</string>
+    <string name="routeinfo_4">元</string>
+    <string name="routeinfo_default">--</string>
+    <string name="app_id">557fc4f8</string>
+    <string name="mypoistion">我的位置</string>
+    <string name="mappoistion">地图点选</string>
+    <string name="positioninfo">位置信息</string>
+
+    <string-array name="preference_values_tts_role">z
+        <item>xiaoyan</item>
+        <item>xiaoyu</item>
+        <item>vixy</item>
+        <item>vixq</item>
+        <item>vixf</item>
+        <item>vixm</item>
+        <item>vixl</item>
+        <item>vixr</item>
+        <item>vixyun</item>
+        <item>vixk</item>
+        <item>vixqa</item>
+        <item>vixying</item>
+        <item>vixx</item>
+        <item>vinn</item>
+        <item>vils</item>
+    </string-array>
+
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_title_tts_speed">语速</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="preference_dialog_title_tts_speed">选择语速</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_title_tts_volume">音量</string>
+    <string name="preference_default_tts_volume">50</string>
+    <string name="preference_dialog_title_tts_volume">选择音量</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <string name="preference_title_tts_pitch">语调</string>
+    <string name="preference_default_tts_pitch">50</string>
+    <string name="title_activity_app_upgrade">AppUpgradeActivity</string>
+
+    <string name="upgrade_url_server">http://192.168.1.154/version.xml</string>
+    <string name="title_activity_song_detail">SongDetailActivity</string>
+    <string name="title_activity_navi_config">NaviConfigActivity</string>
+    <string name="title_activity_load_app">LoadAppActivity</string>
+
+    <string name="music_mode_single_loop">单曲循环</string>
+    <string name="music_mode_all_loop">全部循环</string>
+    <string name="music_mode_sequence">顺序播放</string>
+    <string name="music_mode_all_random">随机播放</string>
+    <string name="music_no_previous">没有前一首了</string>
+    <string name="music_no_songs">没有歌曲了</string>
+
+    <string name="title_activity_vitamio_media_player">VitamioMediaPlayerActivity</string>
+    <string name="title_activity_video_view">VideoViewActivity</string>
+
+    <string name="alertdialog_title">提示</string>
+    <string name="alertdialog_message">确定退出?</string>
+    <string name="alertdialog_message_clear">确定删除?</string>
+    <string name="alertdialog_yes">确定</string>
+    <string name="alertdialog_no">取消</string>
+
+    <string name="video_finish">影片播放完毕，谢谢欣赏!</string>
+    <string name="video_error">影片播放出错</string>
+    <string name="video_error_yes">确定</string>
+    <string name="no_such_movie">影片不存在</string>
+
+    <!--String used in navigation-->
+    <string name="pos_start">起点：</string>
+    <string name="pos_through">途经：</string>
+    <string name="pos_destination">终点：</string>
+    <string name="routine_hint">导航策略</string>
+    <string name="start_navigation">开始</string>
+    <string name="title_activity_start_point_input">StartPointInputActivity</string>
+
+    <string name="start_point_title">设起点</string>
+    <string name="way_point_title">设途经点</string>
+    <string name="end_point_title">设终点</string>
+    <string name="start_point_hint">请输入出发地</string>
+    <string name="end_point_hint">请输入目的地</string>
+    <string name="way_point_hint">请输入途经地</string>
+    <string name="select_strategy_hint">请选择导航策略</string>
+    <string name="clear_history_record">清除历史记录</string>
+
+    <string name="title_activity_start_point_history">StartPointHistoryActivity</string>
+
+    <string name="title_activity_end_point_history">EndPointHistoryActivity</string>
+    <string name="title_activity_end_point_input">EndPointInputActivity</string>
+    <string name="title_activity_address_history">WayPointHistoryActivity</string>
+
+    <string name="title_activity_address_input">WayPointInputActivity</string>
+    <string name="title_activity_sys_config">SysConfigActivity</string>
+
+    <string name="sys_item_wlan">WLAN</string>
+    <string name="sys_item_bluetooth">蓝牙</string>
+    <string name="sys_item_storage">存储</string>
+    <string name="sys_item_app">应用</string>
+    <string name="sys_item_date_time">日期和时间</string>
+    <string name="sys_item_upgrade">升级</string>
+    <string name="sys_item_language">语言和输入法</string>
+    <string name="sys_item_about">关于本机</string>
+
+    <string name="sys_android_version">Android版本号</string>
+    <string name="sys_kernel_version">内核版本号</string>
+    <string name="sys_app_version">APP版本号</string>
+    <string name="sys_wlan_mac">WLAN MAC号</string>
+    <string name="sys_serial_num">机器序列号</string>
+
+    <string name="sys_check_upgrade">检测升级</string>
+    <string name="sys_upgrade_no_need">不需要更新</string>
+    <string name="sys_upgrade_fetch_fail">获取更新信息失败</string>
+    <string name="sys_upgrade_download_fail">下载新版本失败</string>
+    <string name="sys_upgrade_dialog_title">版本升级</string>
+    <string name="sys_upgrade_downloading">正在下载更新</string>
+
+    <string name="sys_app_manager_loading">正在加载...</string>
+    <string name="sys_app_manager_delete_fail">删除App出现错误</string>
+    <string name="sys_app_manager_app_version_text">版本号: </string>
+    <string name="sys_app_manager_uninstall">卸 载</string>
+
+    <string name="sys_storage_device_title">存储设备</string>
+    <string name="sys_storage_device_total">总容量</string>
+    <string name="sys_storage_device_valid">可用容量</string>
+    <string name="sys_storage_device_sd">SD卡</string>
+    <string name="sys_storage_device_usb">USB存储</string>
+
+    <string name="sys_date_time_button">设置日期和时间</string>
+    <string name="sys_date_time_set">设置</string>
+    <string name="sys_date_time_cancel">取消</string>
+
+    <string name="sys_language_button">设置语言</string>
+    <string name="language_chinese">中 文</string>
+    <string name="language_english">English</string>
+    <string name="select_language_prompt">请选择系统语言</string>
+    <string name="alertdialog_language_message">确定设置?</string>
+
+    <string name="switch_text_on">打开</string>
+    <string name="switch_text_off">关闭</string>
+
+    <string name="title_back_btn_text">返回</string>
+
+    <string-array name="file_size_units">
+        <item>B</item>
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+        <item>TB</item>
+        <item>PB</item>
+    </string-array>
+
+    <string name="music">音  乐</string>
+    <string name="movie">电  影</string>
+    <string name="radio">广  播</string>
+
+</resources>

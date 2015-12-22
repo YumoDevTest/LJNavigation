@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                tools:context="com.macernow.djstava.ljnavigation.navigation.activity.WayPointHistoryActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/way_point_history_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/way_point_history_edit"
+            android:src="@drawable/back_top"/>
+
+        <EditText
+            android:id="@+id/way_point_history_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@+id/way_point_history_back"
+            android:background="@drawable/bg_edittext"
+            android:gravity="left|center_vertical"
+            android:hint="@string/end_point_hint"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textSize="35sp"
+            />
+
+        <ListView
+            android:id="@+id/way_point_history_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button_clear"
+            android:layout_below="@+id/way_point_history_back"
+            android:layout_toRightOf="@+id/way_point_history_back"
+            android:divider="@null"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            >
+        </ListView>
+
+        <Button
+            android:id="@+id/button_clear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/way_point_history_listview"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/way_point_history_listview"
+            android:background="@color/red"
+            android:text="@string/clear_history_record"
+            android:textSize="20sp"
+            android:visibility="invisible"/>
+    </RelativeLayout>
+
+</RelativeLayout>

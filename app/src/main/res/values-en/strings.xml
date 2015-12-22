@@ -1,0 +1,234 @@
+<resources>
+    <string name="app_name">LJNavigation</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_music_view">MusicViewActivity</string>
+
+    <string name="main_icon_text_navi">Navi</string>
+    <string name="main_icon_text_phone">Call</string>
+    <string name="main_icon_text_media">Media</string>
+    <string name="main_icon_text_app">Apps</string>
+    <string name="main_icon_text_settings">Settings</string>
+
+    <string name="musicList">Music List</string>
+    <string name="music_current">Playing: </string>
+    <string name="music_origin_time">00:00</string>
+    <string name="movieList">Movie List</string>
+    <string name="music_no_previous">No previous songs</string>
+    <string name="music_no_songs">No more songs</string>
+
+    <string name="textView_back"> Return</string>
+    <string name="title_activity_movie_view">MovieViewActivity</string>
+    <string name="title_activity_movie_media_player">MovieMediaPlayerActivity</string>
+
+    <string name="title_activity_app_manager">AppManagerActivity</string>
+
+    <string name="start_title">Sample Code</string>
+    <string name="base_function">Basic Function</string>
+    <string name="hud_title">HUD Show</string>
+    <string name="extend_title">Extend Function</string>
+    <string name="extend_navi_navi">Custom Navi</string>
+
+    <string name="navibar_title">Route</string>
+    <string name="navi_car">Drive</string>
+    <string name="navi_foot">Walk</string>
+    <string name="start_hud_navi">HUD Show</string>
+    <string name="complex_function">Show</string>
+
+
+    <string name="navi_empty_car">"Drive"</string>
+    <string name="navi_empty_foot">"Walk"</string>
+    <string name="navi_start">"Start Point"</string>
+    <string name="navi_middle">Way Point</string>
+    <string name="navi_end">"End Point"</string>
+    <string name="navi_strategy">"Strategy"</string>
+    <string name="navi_route">Route</string>
+    <string name="navi_navi">Navi</string>
+    <string name="start_navi_navi">Start Navi</string>
+    <string name="navi_strategy_speed">Quick</string>
+    <string name="navi_strategy_cost">No Fee</string>
+    <string name="navi_strategy_distance">Short</string>
+    <string name="navi_strategy_nohighway">No high Way</string>
+    <string name="navi_strategy_timenojam">No Jam</string>
+    <string name="navi_strategy_costnojam">No fee and Jam</string>
+    <string name="navi_locating">Locating...</string>
+    <string name="navi_routing">Routing</string>
+    <string name="navi_routing_fail">Route fail</string>
+    <string name="navi_routing_hint">Start or End point invalidate</string>
+    <string name="navi_routing_fail_hint">Please check the parameters</string>
+    <string name="navi_location_fail_hint">Location error,please check the network.</string>
+
+    <string name="theme_blue">Blue</string>
+    <string name="theme_pink">Pink</string>
+    <string name="theme_white">White</string>
+
+    <string name="setting">Setting</string>
+    <string name="day">Day</string>
+    <string name="night">Night</string>
+    <string name="yes">"  Yes  "</string>
+    <string name="no">"  No  "</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="daynightmode">"Night Mode    "</string>
+    <string name="deviationrecalculation">"Departure Recompute    "</string>
+    <string name="jamrecalculation">"Jam Recompute    "</string>
+    <string name="trafficbroadcast">"communication    "</string>
+    <string name="camerabroadcast">Camera</string>
+    <string name="screenon">"Screen On   "</string>
+    <string name="routeshow">Route</string>
+    <string name="tapmap">Set</string>
+    <string name="starttapmap">My Position</string>
+    <string name="walkdescription">Walk Invalidate</string>
+    <string name="routeinfo">Distance   --Miles/--Minutes    fee --Yuan</string>
+    <string name="routeinfo_1">Distance </string>
+    <string name="routeinfo_2">Miles/</string>
+    <string name="routeinfo_3">"Minutes    Fee"</string>
+    <string name="routeinfo_4">Yuan</string>
+    <string name="routeinfo_default">--</string>
+    <string name="app_id">557fc4f8</string>
+    <string name="mypoistion">My Position</string>
+    <string name="mappoistion">Point Select</string>
+    <string name="positioninfo">Location Info</string>
+
+    <string-array name="preference_values_tts_role">z
+        <item>xiaoyan</item>
+        <item>xiaoyu</item>
+        <item>vixy</item>
+        <item>vixq</item>
+        <item>vixf</item>
+        <item>vixm</item>
+        <item>vixl</item>
+        <item>vixr</item>
+        <item>vixyun</item>
+        <item>vixk</item>
+        <item>vixqa</item>
+        <item>vixying</item>
+        <item>vixx</item>
+        <item>vinn</item>
+        <item>vils</item>
+    </string-array>
+
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_title_tts_speed">speed</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="preference_dialog_title_tts_speed">Select speed</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_title_tts_volume">Volume</string>
+    <string name="preference_default_tts_volume">50</string>
+    <string name="preference_dialog_title_tts_volume">Select Volume</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <string name="preference_title_tts_pitch">Pitch</string>
+    <string name="preference_default_tts_pitch">50</string>
+
+    <string name="upgrade_url_server">http://192.168.1.154/version.xml</string>
+    <string name="title_activity_song_detail">SongDetailActivity</string>
+    <string name="title_activity_navi_config">NaviConfigActivity</string>
+    <string name="title_activity_load_app">LoadAppActivity</string>
+
+    <string name="music_mode_single_loop">Single circle</string>
+    <string name="music_mode_all_loop">All circle</string>
+    <string name="music_mode_sequence">Sequence</string>
+    <string name="music_mode_all_random">Random</string>
+    <string name="title_activity_vitamio_media_player">VitamioMediaPlayerActivity</string>
+    <string name="title_activity_video_view">VideoViewActivity</string>
+
+    <string name="alertdialog_title">Hint</string>
+    <string name="alertdialog_message">Exit?</string>
+    <string name="alertdialog_message_clear">Delete?</string>
+    <string name="alertdialog_yes">OK</string>
+    <string name="alertdialog_no">Cancel</string>
+
+    <string name="video_finish">Thanks</string>
+    <string name="video_error">Error</string>
+    <string name="video_error_yes">Yes</string>
+    <string name="no_such_movie">No movie exists.</string>
+
+    <!--String used in navigation-->
+    <string name="pos_start">Start：</string>
+    <string name="pos_through">Way：</string>
+    <string name="pos_destination">End：</string>
+    <string name="routine_hint">Strategy</string>
+    <string name="start_navigation">Start</string>
+    <string name="title_activity_start_point_input">StartPointInputActivity</string>
+
+    <string name="start_point_title">Set start point</string>
+    <string name="way_point_title">Set way point</string>
+    <string name="end_point_title">Set end point</string>
+    <string name="start_point_hint">Input the start point</string>
+    <string name="end_point_hint">Input the end point</string>
+    <string name="way_point_hint">Input the way point</string>
+    <string name="select_strategy_hint">Select Strategy</string>
+    <string name="clear_history_record">Clear record</string>
+
+    <string name="title_activity_start_point_history">StartPointHistoryActivity</string>
+
+    <string name="title_activity_end_point_history">EndPointHistoryActivity</string>
+    <string name="title_activity_end_point_input">EndPointInputActivity</string>
+    <string name="title_activity_address_history">WayPointHistoryActivity</string>
+
+    <string name="title_activity_address_input">WayPointInputActivity</string>
+    <string name="title_activity_sys_config">SysConfigActivity</string>
+
+    <string name="sys_item_wlan">WLAN</string>
+    <string name="sys_item_bluetooth">Bluetooth</string>
+    <string name="sys_item_storage">Storage</string>
+    <string name="sys_item_app">Apps</string>
+    <string name="sys_item_date_time">Date and Time</string>
+    <string name="sys_item_upgrade">Upgrade</string>
+    <string name="sys_item_language">Language and Input</string>
+    <string name="sys_item_about">About</string>
+
+    <string name="sys_android_version">Android Version</string>
+    <string name="sys_kernel_version">Kernel Version</string>
+    <string name="sys_app_version">APP Version</string>
+    <string name="sys_wlan_mac">WLAN MAC</string>
+    <string name="sys_serial_num">Serial Num</string>
+
+    <string name="sys_check_upgrade">Detect</string>
+    <string name="sys_upgrade_no_need">No need to upgrade</string>
+    <string name="sys_upgrade_fetch_fail">Fetch info failed</string>
+    <string name="sys_upgrade_download_fail">Upgrade failed</string>
+    <string name="sys_upgrade_dialog_title">Upgrade</string>
+    <string name="sys_upgrade_downloading">Upgrading</string>
+
+    <string name="sys_app_manager_loading">Loading...</string>
+    <string name="sys_app_manager_delete_fail">Error when unisntall app</string>
+    <string name="sys_app_manager_app_version_text">Version: </string>
+    <string name="sys_app_manager_uninstall">Uninstall</string>
+
+    <string name="sys_storage_device_title">Device</string>
+    <string name="sys_storage_device_total">Total</string>
+    <string name="sys_storage_device_valid">Valid</string>
+    <string name="sys_storage_device_sd">SD Card</string>
+    <string name="sys_storage_device_usb">USB Storage</string>
+
+    <string name="sys_date_time_button">Set Date and Time</string>
+    <string name="sys_date_time_set">Set</string>
+    <string name="sys_date_time_cancel">Cancel</string>
+
+    <string name="sys_language_button">Set</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_english">English</string>
+    <string name="select_language_prompt">Select language</string>
+    <string name="alertdialog_language_message">Set?</string>
+
+    <string name="switch_text_on">Open</string>
+    <string name="switch_text_off">Close</string>
+
+    <string name="title_back_btn_text">Back</string>
+
+    <string-array name="file_size_units">
+        <item>B</item>
+        <item>KB</item>
+        <item>MB</item>
+        <item>GB</item>
+        <item>TB</item>
+        <item>PB</item>
+    </string-array>
+
+    <string name="music">music</string>
+    <string name="movie">movie</string>
+    <string name="radio">radio</string>
+
+</resources>

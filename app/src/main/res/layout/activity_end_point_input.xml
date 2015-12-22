@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                tools:context="com.macernow.djstava.ljnavigation.navigation.activity.EndPointInputActivity">
+
+    <ImageView
+        android:id="@+id/end_point_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_top"
+        android:layout_above="@+id/end_point_edit"/>
+
+    <TextView
+        android:id="@+id/end_point_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@+id/end_point_back"
+        android:gravity="center"
+        android:text="@string/end_point_title"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/end_point_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edittext"
+        android:hint="@string/end_point_hint"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textSize="35sp"
+        android:layout_below="@+id/end_point_title"
+        android:layout_alignLeft="@+id/end_point_listview"
+        android:layout_alignStart="@+id/end_point_listview"/>
+
+    <Button
+        android:id="@+id/end_point_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edittext_clear"
+        android:visibility="invisible"
+        android:layout_above="@+id/end_point_listview"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <ListView
+        android:id="@+id/end_point_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:divider="@null"
+        android:headerDividersEnabled="false"
+        android:footerDividersEnabled="false"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/end_point_edit">
+    </ListView>
+
+</RelativeLayout>
